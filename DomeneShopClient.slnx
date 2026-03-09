@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="DomeneShopClient.Tests/DomeneShopClient.Tests.csproj" DisplayName="DomeneshopClient.Tests" />
+  <Project Path="DomeneShopClient/DomeneShopClient.csproj" DisplayName="DomeneshopClient" />
+</Solution>
