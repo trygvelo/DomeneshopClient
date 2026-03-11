@@ -4,11 +4,32 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
+    <!-- Package identity -->
+    <PackageId>DomeneshopClient</PackageId>
+    <Title>Domeneshop API Client</Title>
+    <Description>A .NET 8 client library for the Domeneshop REST API v0, built with Flurl.Http.</Description>
+    <Authors>trygvelo</Authors>
+    <PackageTags>domeneshop;dns;api;client;flurl</PackageTags>
+    <PackageProjectUrl>https://github.com/trygvelo/DomeneshopClient</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/trygvelo/DomeneshopClient</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+
+    <!-- Version is injected by CI from the git tag, e.g. v1.0.0 → 1.0.0 -->
+    <Version>0.0.0</Version>
+
+    <!-- Source Link: embeds repo URL and commit SHA for debugger support -->
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Flurl.Http" Version="4.0.2" />
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="All" />
   </ItemGroup>
 
   <ItemGroup>
