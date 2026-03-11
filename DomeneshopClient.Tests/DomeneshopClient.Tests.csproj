@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DomeneShopClient\DomeneshopClient.csproj" />
+    <ProjectReference Include="..\DomeneshopClient\DomeneshopClient.csproj" />
   </ItemGroup>
 
   <ItemGroup>
